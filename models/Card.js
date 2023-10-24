@@ -17,6 +17,9 @@ Card.init({
   },
   content:{
     type: DataTypes.STRING,
+  },
+  url:{
+    type: DataTypes.STRING,
   }
 }, {
   sequelize: db,
